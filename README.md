@@ -1,3 +1,8 @@
+# Custom Drop Down - Angular
+
+<img width="1728" alt="image" src="https://github.com/danielmarkjohn/angular-dropdown/assets/49250267/7980d96c-d552-44f0-8e5e-eb9830a5bb4e">
+
+
 # Folder Structure
 
 - src
