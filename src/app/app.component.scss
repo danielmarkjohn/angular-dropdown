@@ -1,0 +1,30 @@
+:host ::ng-deep .p-dropdown {
+  width: 100%;
+}
+
+
+:host ::ng-deep .p-dropdown .p-placeholder {
+  color: #999999; /* Replace with your desired light grey color */
+}
+
+:host ::ng-deep .p-dropdown .p-dropdown-trigger .p-dropdown-trigger-icon {
+  color: #999999; /* Replace with your desired light grey color */
+}
+
+::ng-deep .p-dropdown .p-dropdown-items .p-dropdown-item:not(.p-highlight):hover {
+  background-color: rgba(129, 209, 255, 0.185) !important;
+}
+
+
+:host ::ng-deep .p-dropdown .p-dropdown-items .p-dropdown-items-wrapper {
+  scrollbar-width: thin;
+  scrollbar-color: blue transparent;
+}
+
+:host ::ng-deep .p-dropdown .p-dropdown-items .p-dropdown-items-wrapper::-webkit-scrollbar {
+  width: 40%;
+}
+
+:host ::ng-deep .p-dropdown .p-dropdown-items .p-dropdown-items-wrapper::-webkit-scrollbar-thumb {
+  background-color: blue;
+}

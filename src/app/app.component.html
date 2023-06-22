@@ -1,0 +1,8 @@
+<p-dropdown
+  [options]="options"
+  [(ngModel)]="selectedOption"
+  placeholder="{{ placeholderLabel }}"
+  optionLabel="name"
+  [showClear]="true"
+  (onChange)="onOptionSelected($event.value)"
+></p-dropdown>
